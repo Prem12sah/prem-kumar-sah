@@ -50,7 +50,7 @@ export const SKILLS = {
   ],
   exploring: ['Next.js 15', 'TypeScript', 'Docker', 'AWS', 'PostgresQL', 'GraphQL', 'AI/ML'],
   concepts: [
-    'Data Structures', 'Algorithms', 'OOP', 'REST APIs', 'AI/ML Basics',
+    'Data Structures', 'Algorithms', 'OOP', 'REST APIs','SDLC', 'AI/ML Basics',
     'JWT Auth', 'Payment Gateway', 'Responsive Design', 'Database Design', 'Version Control',
   ],
 }
