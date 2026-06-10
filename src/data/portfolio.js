@@ -58,6 +58,14 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
+    id: 1, icon: '🏥', color: '#ff6b6b', featured: true,
+    title: 'Hospital Management System',
+    desc:  'Hospital Management System – Developed a full-stack HMS with role-based dashboards (Admin, Doctor, Patient), appointment booking, patient records, secure Clerk authentication, RESTful APIs, and a responsive Tailwind CSS interface.',
+    tech:  [' MongoDB', 'Express.js', 'React.js', 'Node.js','Tailwind CSS', 'Clerk Authentication', 'REST API', 'Render', 'Git/GitHub '],
+    github: 'https://github.com/Prem12sah/Hospital-Management-System-HMS-',   
+    demo:   'https://github.com/Prem12sah/Hospital-Management-System-HMS-',   
+  },
+  {
     id: 1, icon: '💆', color: '#ff6b6b', featured: true,
     title: 'Beauty SPA Management',
     desc:  'Full-stack spa management system with responsive customer & employee dashboards, booking flows, payment integration, and admin panels.',
