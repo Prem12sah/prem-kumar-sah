@@ -10,6 +10,7 @@ export const ME = {
   bio: 'Software enthusiast with strong skills in software development, web technologies, and problem-solving. Building efficient, scalable applications using modern tools and frameworks.',
   roles: [
     'Full Stack Developer',
+    'Java Developer',
     'React Developer',
     'Node.js Developer',
     'Problem Solver',
