@@ -49,7 +49,7 @@ export default function Footer() {
                 onMouseLeave={e => e.target.style.color = '#6b7280'}>
                 {ME.email}
               </a>
-              <span style={{ fontFamily: 'Outfit,sans-serif', fontSize: '0.85rem', color: '#6b7280' }}>{ME.phone}</span>
+              
               <span style={{ fontFamily: 'Outfit,sans-serif', fontSize: '0.85rem', color: '#6b7280' }}>{ME.location}</span>
             </div>
           </div>

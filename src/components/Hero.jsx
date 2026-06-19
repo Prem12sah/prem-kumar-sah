@@ -61,7 +61,7 @@ export default function Hero() {
               <span style={{ fontFamily: 'Outfit,sans-serif', fontSize: '0.72rem', color: '#43e97b' }}>Available for opportunities</span>
             </div>
 
-            <span className="eyebrow" style={{ opacity: 0, animation: 'fadeUp .6s .15s ease forwards' }}>Software Developer</span>
+            <span className="eyebrow" style={{ opacity: 0, animation: 'fadeUp .6s .15s ease forwards' }}>Software Engineer</span>
 
             <h1 style={{ opacity: 0, animation: 'fadeUp .7s .25s ease forwards', fontFamily: 'Syne,sans-serif', fontWeight: 800, lineHeight: 1.04, marginBottom: 16, color: '#fff', fontSize: 'clamp(2.8rem,5.5vw,5rem)' }}>
               Prem<br/>
@@ -136,9 +136,9 @@ export default function Hero() {
 
             {/* Floating badges */}
             {[
-              { top: '12%', left: '0%', delay: '0s',   border: 'rgba(108,99,255,.35)', children: <><div style={{ fontFamily:'Syne,sans-serif', fontWeight:700, color:'#fff', fontSize:'0.9rem' }}>200+ 🏆</div><div style={{ fontFamily:'Outfit,sans-serif', fontSize:'0.7rem', color:'#6b7280', marginTop:2 }}>LeetCode Problems</div></> },
+              { top: '12%', left: '0%', delay: '0s',   border: 'rgba(108,99,255,.35)', children: <><div style={{ fontFamily:'Syne,sans-serif', fontWeight:700, color:'#fff', fontSize:'0.9rem' }}>250+ 🏆</div><div style={{ fontFamily:'Outfit,sans-serif', fontSize:'0.7rem', color:'#6b7280', marginTop:2 }}>LeetCode Problems</div></> },
               { top: '38%', left: '-4%', delay: '.8s',  border: 'rgba(67,233,123,.3)',  children: <><div style={{ fontFamily:'Outfit,sans-serif', fontSize:'0.68rem', color:'#6b7280', marginBottom:8 }}>Tech Stack</div><div style={{ display:'flex', gap:6 }}>{['⚛️','☕','🐍','🍃'].map((em,i)=><span key={i} style={{ width:28, height:28, borderRadius:7, background:'rgba(255,255,255,.07)', display:'flex', alignItems:'center', justifyContent:'center', fontSize:'0.9rem' }}>{em}</span>)}</div></> },
-              { top: '64%', left: '-2%', delay: '1.5s', border: 'rgba(67,233,123,.28)', children: <div style={{ display:'flex', alignItems:'center', gap:8 }}><span style={{ width:8, height:8, borderRadius:'50%', background:'#43e97b', display:'inline-block', animation:'pulseGlow 2s infinite' }}/><span style={{ fontFamily:'Outfit,sans-serif', fontSize:'0.75rem', color:'#f0f0f8' }}>Open to Work</span></div> },
+              { top: '64%', left: '-2%', delay: '1.5s', border: 'rgba(67,233,123,.28)', children: <div style={{ display:'flex', alignItems:'center', gap:8 }}><span style={{ width:8, height:8, borderRadius:'50%', background:'#43e97b', display:'inline-block', animation:'pulseGlow 2s infinite' }}/><span style={{ fontFamily:'Outfit,sans-serif', fontSize:'0.75rem', color:'#f0f0f8' }}>Let's Build </span></div> },
             ].map((b, i) => (
               <div key={i} className="fbadge" style={{ position: 'absolute', top: b.top, left: b.left, animationDelay: b.delay, background: 'rgba(10,10,20,.92)', border: `1px solid ${b.border}`, borderRadius: 12, padding: '10px 14px', backdropFilter: 'blur(12px)', zIndex: 30 }}>
                 {b.children}

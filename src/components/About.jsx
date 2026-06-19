@@ -3,10 +3,10 @@ import { goTo } from '../utils/helpers'
 
 export default function About() {
   const cards = [
-    { icon: '🎓', title: 'B.E. Computer Science', sub: 'Chandigarh University' },
+    { icon: '🎓', title: 'B.E.-Computer Science and Engineering', sub: 'Chandigarh University' },
     { icon: '📍', title: 'Kathmandu, Nepal',       sub: 'Open to remote & relocation' },
-    { icon: '💼', title: 'Full Stack Developer',   sub: 'MERN • Java • Python' },
-    { icon: '🏆', title: '200+ LeetCode',          sub: 'Consistent problem-solver' },
+    { icon: '💼', title: 'Full Stack Developer',   sub: 'MERN • Java' },
+    { icon: '🏆', title: '250+ LeetCode',          sub: 'Consistent problem-solver' },
   ]
 
   return (
@@ -26,7 +26,7 @@ export default function About() {
           {/* Bio */}
           <div className="reveal" style={{ display: 'flex', flexDirection: 'column', gap: 18 }}>
             {[
-              <><strong style={{ color: '#f0f0f8' }}>Prem Kumar Sah</strong> — a passionate software developer from Nepal graduated with a B.E. in Computer Science at Chandigarh University. I love turning ideas into real, functional products.</>,
+              <><strong style={{ color: '#f0f0f8' }}>Prem Kumar Sah</strong> — a passionate Software Developer from Nepal, holding a B.E. in Computer Science and Engineering. I love turning ideas into scalable, functional, and user-focused products.</>,
               <>From building <span style={{ color: '#6c63ff', fontWeight: 500 }}>full-stack web apps</span> with the MERN stack to Spring Boot backends and exploring AI/ML, I enjoy tackling challenges across the entire stack.</>,
               <>When I'm not coding, I'm solving problems on <span style={{ color: '#6c63ff', fontWeight: 500 }}>LeetCode</span>, earning certifications, or exploring new tech to stay ahead.</>,
             ].map((p, i) => (
@@ -55,19 +55,7 @@ export default function About() {
                 <div style={{ fontFamily: 'Outfit,sans-serif', fontSize: '0.75rem', color: '#6b7280' }}>{c.sub}</div>
               </div>
             ))}
-            <div className="card-lift" style={{ gridColumn: '1/-1', background: 'linear-gradient(135deg,rgba(108,99,255,.1),rgba(255,107,107,.05))', border: '1px solid rgba(108,99,255,.2)', borderRadius: 18, padding: 20 }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: 16, flexWrap: 'wrap' }}>
-                <div>
-                  <div style={{ fontFamily: 'Outfit,sans-serif', fontSize: '0.72rem', color: '#6b7280' }}>Phone</div>
-                  <div style={{ fontFamily: 'Syne,sans-serif', fontWeight: 600, color: '#f0f0f8', fontSize: '0.9rem' }}>{ME.phone}</div>
-                </div>
-                <div style={{ width: 1, height: 32, background: '#1e1e2e' }}/>
-                <div>
-                  <div style={{ fontFamily: 'Outfit,sans-serif', fontSize: '0.72rem', color: '#6b7280' }}>Email</div>
-                  <div style={{ fontFamily: 'Syne,sans-serif', fontWeight: 600, color: '#f0f0f8', fontSize: '0.9rem' }}>{ME.email}</div>
-                </div>
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>

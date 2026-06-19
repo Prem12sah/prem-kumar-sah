@@ -51,7 +51,6 @@ export default function Contact() {
 
   const contactItems = [
     { icon: '✉️', label: 'Email',    val: ME.email,    href: `mailto:${ME.email}` },
-    { icon: '📞', label: 'Phone',    val: ME.phone,    href: `tel:+9779824729055` },
     { icon: '📍', label: 'Location', val: ME.location, href: 'https://maps.google.com/?q=Kathmandu,Nepal' },
   ]
 
